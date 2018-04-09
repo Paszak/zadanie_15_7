@@ -1,5 +1,3 @@
-import React from 'react';
-
 class Stopwatch extends React.Component {
 	
 	constructor(props) {
@@ -90,7 +88,7 @@ class Stopwatch extends React.Component {
 				<button className='btn btn-lg btn-success' onClick={this.start}>Start</button>
 				<button className='btn btn-lg btn-danger' onClick={this.stop}>Stop</button>
 				<button className='btn btn-lg btn-success' onClick={this.reset}>Reset</button>
-				<div className="stopwatch text-center" style={{fontSize: 30}} />{this.display}
+				<div className="stopwatch text-center" style={{fontSize: 30}} />{this.display} />
 			</nav>
 		);
 	}
